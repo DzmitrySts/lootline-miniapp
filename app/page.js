@@ -1,3 +1,5 @@
+"use client";
+
 export default function Home() {
   return (
     <main style={{
@@ -15,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p style={{ opacity: 0.7, fontSize: 16 }}>
-          Цифровые дропы. NFT. Криптоподарки.  
+          Цифровые дропы. NFT. Криптоподарки.
           Открывай лутбоксы — получай призы.
         </p>
 
