@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "frontend",
+      "rootDirectory": "frontend",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
+    },
+    {
+      "name": "backend",
+      "rootDirectory": "backend",
+      "buildCommand": "",
+      "outputDirectory": ""
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
