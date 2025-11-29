@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export" // полностью статический сайт
+  output: "standalone" // или можно убрать, если не нужен
 };
 
 module.exports = nextConfig;
