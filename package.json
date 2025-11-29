@@ -1,15 +1,17 @@
 {
-  "name": "lootline-miniapp",
+  "name": "lootline-spa",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "serve public",
+    "build": "echo Build not needed for static SPA",
+    "dev": "vite"
   },
   "dependencies": {
-    "next": "14.1.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
